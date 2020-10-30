@@ -1,0 +1,107 @@
+.header {
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+}
+
+.header .mainMenu {
+    text-align: center;
+    }
+
+.header .mainMenu .menuItem {
+    display: inline-block;
+    margin: 0 0.1rem 2rem 0;
+}
+.header .mainMenu .menuItem a {
+    color: white;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.header .mainMenu .menuItem a:hover {
+    background-color: #48A3A6;
+}
+
+.header .informacaoContainer {
+    padding: 0 0 2.75rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header .textContainer {
+    color: white;
+    text-shadow: 0.25rem 0.25rem 0.6rem black;
+}
+
+.header .textContainer .textTitle {
+    font-size: 3rem;
+}
+
+.header .textContainer .textSubTitle {
+    color: #64ff64;
+    font-size: 2.6rem;
+    margin-top: 0.5rem;
+}
+
+.header .informacaoContainer .btnContainer .buttonInscricao {
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    margin: 0.3rem;
+    background-color: #48A3A6;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.05rem 0.3rem black;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: white;
+}
+
+.header .btnContainer {
+    margin-top: 1.8rem;
+}
+
+.sectionContainer {
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+.sectionContainer .textTitle {
+
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.sectionContainer .textSubTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sectionContainer .descricao {
+    font-size: 1.05rem;
+    line-height: 2.2rem;
+}
+
+
+@media(min-width: 650px) {
+
+    .header .informacaoContainer {
+
+        font-size: 1.75rem;
+    }
+
+    .header .informacaoContainer .textTitle {
+
+        font-size: 3em; 
+    }
+    
+    .header .informacaoContainer .textSubTitle {
+    
+        font-size: 2.6em;
+        margin-top: 0.5rem;
+    }
+
+}
