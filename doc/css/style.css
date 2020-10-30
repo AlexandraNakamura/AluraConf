@@ -64,44 +64,121 @@
     margin-top: 1.8rem;
 }
 
-.sectionContainer {
+.informacaoContainer {
     margin-top: 1.25rem;
     text-align: center;
 }
 
-.sectionContainer .textTitle {
+.informacaoContainer .textTitle {
 
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
-.sectionContainer .textSubTitle {
+.informacaoContainer .textSubTitle {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.sectionContainer .descricao {
+.informacaoContainer .descricao {
     font-size: 1.05rem;
     line-height: 2.2rem;
 }
 
+.palestranteContainer{
+    padding-top: 2.5rem;
+    background: #EF7247;
+    color: #fff;
+    text-align: center;
+}
 
-@media(min-width: 650px) {
+.palestranteContainer .textTitle {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
 
+.palestranteContainer .textSubTitle {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.palestranteContainer .containerCartaoPalestrante {
+    display: inline-block;
+    width: 70vw;
+    background-color: white;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.7rem;
+    vertical-align: top;
+    color: #000;
+}
+
+.palestranteContainer .containerCartaoPalestrante img {
+    border-radius: 50%;
+    height: 47.559vh;
+    width: 70vw;
+}
+
+.palestranteContainer .palestranteNome {
+    padding-top:1rem;
+}
+
+.palestranteContainer .palestranteBiografia {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.palestranteContainer .palestranteAssunto {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+}
+
+
+
+@media(min-width: 420px) {
     .header .informacaoContainer {
-
-        font-size: 1.75rem;
+        font-size: 28px;
     }
 
     .header .informacaoContainer .textTitle {
-
-        font-size: 3em; 
+        font-size: 60px; 
     }
     
     .header .informacaoContainer .textSubTitle {
-    
-        font-size: 2.6em;
-        margin-top: 0.5rem;
+        font-size: 58px;
+        margin-top: 8px;
     }
 
+    .palestranteContainer .containerCartaoPalestrante {
+        display: inline-block;
+        width: 250px;
+        margin: 0 16px 32px 0;
+    }
+    
+    .palestranteContainer .containerCartaoPalestrante img {
+        height: 250px;
+        width: 250px;
+    }
+    
+    .palestranteContainer .palestranteNome {
+        padding-top:16px;
+    }
+    
+    .palestranteContainer .palestranteBiografia {
+        font-weight: bold;
+        margin-top: 16px;
+    }
+    
+    .palestranteContainer .palestranteAssunto {
+        margin-top: 16px;
+        padding-top: 8px;
+    }
+}
+
+@media(min-width: 1060px) {
+    .informacaoContainer {
+        width: 1140px;
+        margin: 32px auto;
+    }
 }
