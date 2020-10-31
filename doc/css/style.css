@@ -134,6 +134,59 @@
     padding-top: 0.5rem;
 }
 
+.containerFormulario {
+    width:86vw;
+    margin: 2rem auto 3rem;
+}
+
+.containerFormulario .textTitle {
+    font-size: 2rem;
+    color: #EF7247;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.containerFormulario form {
+    margin-top: 1rem;
+}
+
+.campoForulario {
+    margin: 0rem auto 1rem;
+    width: 100%;
+}
+
+.campoForulario .campoLabel {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+}
+
+.container .campoInput{
+    display: block;
+    width: 82vw;
+    font-size: 1.25rem;
+    padding: 0.3rem;
+    margin: 0.8rem 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A2A6;
+    
+}
+
+.campoBtn {
+    text-align: center;
+}
+
+.btnInscricao {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1.5rem 3rem;
+    background-color: #48A2A6;
+    border-radius: 0.8rem;
+    margin-top: 0.5rem;
+}
 
 
 @media(min-width: 420px) {
@@ -174,6 +227,30 @@
         margin-top: 16px;
         padding-top: 8px;
     }
+    .campoFormulario {
+        margin: 0 auto 1px;
+        width: 365px;
+    }
+
+    .containerFormulario {
+        width: 365px;
+        margin: 40px auto;
+    }
+
+    .campoForulario .campoLabel {
+        margin: 0 auto 12px;
+
+    }
+    
+    .container .campoInput{
+        width: 350px;
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px #48A2A6; 
+        margin: 12px auto;
+    }
+
 }
 
 @media(min-width: 1060px) {
@@ -181,4 +258,23 @@
         width: 1140px;
         margin: 32px auto;
     }
+    .containerFormulario {
+        width: 620px;
+        margin: 40px auto;
+    }
+    
+    .container .campoInput{
+        width: 580px;
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px #48A2A6; 
+        margin: 12px auto;
+    }
+
+    .campoFormulario {
+        margin: 0 auto 1px;
+        width: 595px;
+    }
+
 }
